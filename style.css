@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(116, 116, 116);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 2em;
+  width: 25em;
+  height: 40em;
+
+  text-shadow: rgb(12, 12, 12) 2px 2px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container h1 {
+  font-size: 2.5em;
+}
+
+.container .Imc {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.container p {
+  font-size: 1.45em;
+}
+
+.container .container-imc {
+  border: 3px solid rgb(5, 241, 230);
+  box-shadow: 0 0 0 6px rgba(68, 207, 195, 0.9),
+    0 0 0 8px rgba(68, 191, 207, 0.7);
+  background-color: rgb(41, 41, 41);
+
+  width: 25em;
+  height: 40em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.container .container-imc span {
+  font-size: 2em;
+  display: block;
+  margin-top: 40px;
+  color: bisque;
+}
+
+.container .container-imc .container-radio {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.container .container-imc .container-radio .sexo {
+  border: 1px solid black;
+  background-color: rgba(68, 207, 195, 0.9);
+  padding-top: 10px;
+  height: 1.4em;
+  width: 6em;
+}
+
+.container .container-imc .container-radio .sexo:hover {
+  background-color: rgb(15, 25, 170);
+  border: 1px solid rgb(0, 160, 252);
+}
+
+.container .container-imc .sexo.sexo-f {
+  margin-left: 1em;
+  color: white;
+  border: 1px solid rgb(255, 8, 144);
+  background-color: #f0b4d7;
+}
+
+.container .container-imc .container-radio .sexo.sexo-f:hover {
+  background-color: rgb(235, 0, 164);
+  border: 1px solid rgb(248, 1, 166);
+}
+
+.container-imc .container-number {
+  margin-right: 6em;
+  color: bisque;
+}
+
+.container-imc .container-number span {
+  margin-right: 3.7em;
+}
+
+.container-imc .btn {
+  background-color: rgba(68, 207, 195, 0.9);
+
+  font-size: 0.9em;
+  margin-top: 6em;
+  width: 25em;
+  height: 4em;
+  letter-spacing: 5px;
+}
+.container-imc .btn:hover {
+  background-color: rgba(16, 94, 87, 0.9);
+  color: white;
+}
+
+.feedback {
+  margin-top: 60px;
+}
