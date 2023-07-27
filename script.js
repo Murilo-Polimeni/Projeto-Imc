@@ -9,17 +9,13 @@ function calcularImc() {
 
   if (resultado < 18.5) {
     html += `Você está muito a baixo de seu peso certo, se alimente melhor`
-  }
-  if (resultado >= 18.5 && resultado < 24.9) {
+  } else if (resultado >= 18.5 && resultado < 24.9) {
     html += `Você está em seu peso normal, muito bem! continue cuidando de sua saude`
-  }
-  if (resultado >= 25.0 && resultado < 29.9) {
+  } else if (resultado >= 25.0 && resultado < 29.9) {
     html += `Você está com sobrepeso`
-  }
-  if (resultado >= 30.0 && resultado < 39.9) {
+  } else if (resultado >= 30.0 && resultado < 39.9) {
     html += `Você está com obesidade`
-  }
-  if (resultado >= 40.0) {
+  } else if (resultado >= 40.0) {
     html += `Você está com obesidade grave, cuidado !!`
   }
 
