@@ -78,13 +78,19 @@ body {
   border: 1px solid rgb(248, 1, 166);
 }
 
-.container-imc .container-number {
+.container-imc .container-input {
   margin-right: 6em;
   color: bisque;
 }
 
-.container-imc .container-number span {
+.container-imc .container-input span {
   margin-right: 3.7em;
+}
+
+.container-imc .container-input .input.name {
+  margin-right: 1.8em;
+  height: 1.7em;
+  border: solid 1px black;
 }
 
 .container-imc .btn {
@@ -103,4 +109,14 @@ body {
 
 .feedback {
   margin-top: 60px;
+}
+
+.historico-tabela {
+  word-spacing: 5em;
+  font-size: 1.5em;
+  width: 20em;
+
+  text-shadow: white 1px 1px;
+  color: black;
+  background-color: rgb(194, 194, 194);
 }

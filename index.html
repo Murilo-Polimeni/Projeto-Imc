@@ -6,7 +6,7 @@
     <title>IMC</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body onload="exibirDados()">
     <div class="container">
       <h1>Calculadora de Imc</h1>
       <p>
@@ -25,23 +25,40 @@
             <label for="feminino">Mulher</label>
           </div>
         </div>
-        <div class="container-number">
-          <div class="imput">
-            <span>Altura</span>
-            <input type="number" name="altura" id="altura" />
-            <label for="altura">cm</label>
-          </div>
-          <div class="imput">
-            <span>Peso</span>
-            <input type="number" name="peso" id="peso" />
-            <label for="peso">kg</label>
-          </div>
+        <div class="container-input">
+          <span>Nome</span>
+          <input
+            class="input name"
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Preencha seu nome."
+          />
+          <span>Altura</span>
+          <input class="input" type="number" name="altura" id="altura" />
+          <label for="altura">cm</label>
+
+          <span>Peso</span>
+          <input class="input" type="number" name="peso" id="peso" />
+          <label for="peso">kg</label>
         </div>
 
         <button class="btn" onclick="calcularImc()">
           <strong>Calcular</strong>
         </button>
         <p class="feedback"></p>
+
+        <table class="historico-tabela">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Altura</th>
+              <th>Peso</th>
+              <th>Resultado</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
       </div>
     </div>
   </body>
