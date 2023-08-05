@@ -33,7 +33,7 @@ function calcularImc() {
 
   paragrafo.innerText = html
   InserirLinha(nome, altura, peso, estado)
-  inserirNoLocalStorage(nome, altura, peso, resultado)
+  inserirNoLocalStorage(nome, altura, peso, estado) 
 }
 
 function InserirLinha(nome, altura, peso, estado) {
