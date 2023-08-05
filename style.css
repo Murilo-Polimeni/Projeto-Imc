@@ -34,7 +34,6 @@ body {
   background-color: rgb(41, 41, 41);
 
   width: 25em;
-  height: 40em;
   margin-top: 2em;
   text-align: center;
 }
@@ -115,8 +114,25 @@ body {
   word-spacing: 5em;
   font-size: 1.5em;
   width: 20em;
+  margin-top: 2em;
 
   text-shadow: white 1px 1px;
   color: black;
-  background-color: rgb(194, 194, 194);
+  background-color: rgba(230, 230, 230, 0.63);
+}
+
+tr.azul {
+  background-color: blue;
+}
+
+tr.amarelo {
+  background-color: yellow;
+}
+
+tr.vermelho {
+  background-color: red;
+}
+
+tr.laranja {
+  background-color: orange;
 }
